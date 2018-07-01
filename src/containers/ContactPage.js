@@ -5,6 +5,18 @@ class ContactPage extends React.Component {
 
     return(
       <div className="contact">
+        <div className="contract">
+          <h2> Contract Title </h2>
+          <p> Contract details </p>
+        </div>
+        <div className="contract">
+          <h2> Contract Title </h2>
+          <p> Contract details </p>
+        </div>
+        <div className="contract">
+          <h2> Contract Title </h2>
+          <p> Contract details </p>
+        </div>
       </div>
     )
 
@@ -12,5 +24,3 @@ class ContactPage extends React.Component {
 
 
 }
-
-export default ContactPage
