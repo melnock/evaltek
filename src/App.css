@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: auto;
+  width: 80%;
 }
 
 .App-logo {
@@ -25,4 +27,28 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+#basic-info{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top:50px;
+}
+
+.filler-about{
+  width: 30%;
+  height: 100px;
+  margin: 5px;
+}
+
+#basic-info h2{
+  width: 62%;
+  margin: 5px;
+
+}
+
+#specializations ul{
+  width: 50%;
 }

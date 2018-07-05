@@ -9,7 +9,6 @@ class NavBar extends React.Component {
       <div className="navbar">
       <Link to="/contracts"> Contracts </Link>
       <Link to="/about"> About </Link>
-      <Link to="/contact"> Contact Us </Link>
       </div>
     )
 
