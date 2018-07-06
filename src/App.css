@@ -46,9 +46,24 @@
 #basic-info h2{
   width: 62%;
   margin: 5px;
-
 }
 
+.just-right{
+  text-align: right;
+}
+
+.just-left{
+  text-align: left;
+}
+
+#specializations{
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+#specializations h2{
+  width:51%;
+}
 #specializations ul{
   width: 50%;
 }
