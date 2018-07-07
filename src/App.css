@@ -52,9 +52,9 @@
   text-align: right;
 }
 
-.just-left{
+/* .just-left{
   text-align: left;
-}
+} */
 
 #specializations{
   display: flex;
